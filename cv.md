@@ -1,8 +1,9 @@
 # CV
 
-ada
+
+
 - First Name, Last Name: Yaroslav Kondrattsev
-- Contacts: +380933016798, lentorilp@gmail.co
+- Contacts: +380933016798, lentorilp@gmail.com
 - Soft skills: Understanding game theory and graph theory. Great desire to learn and develop in this direction. Perseverance, ability to solve problems step by step
 - Hard skills: Basic skills in HTML, CSS, JS, C++
 - Сode examlpes:
