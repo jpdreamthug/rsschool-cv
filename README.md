@@ -1,1 +1,1 @@
-https://jpdreamthug.github.io/rsschool-cv/cv
+https://jpdreamthug.github.io/rsschool-cv/cv 
