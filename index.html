@@ -1,50 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
         <title>CV</title>
 </head>
 <body>
-<div class="main">
-<article>
-    <header>
+    <div class="main">
+        <header>
+            <div class="head">
+                <h1 class="name">Yaroslav Kondrattsev</h1>
+                <div class="contacts">
+                    <h4>Contacts:</h4>
+                    <ul>
+                        <li>+380933016798</li>
+                        <li>lentorilp@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <img class="photo" src="https://i.imgur.com/5fAPqoK.jpg" alt="My photo">
+        </header>
         <section>
-       <h1>Yaroslav Kondrattsev</h1>
-            <div class="contacts">
-        <h4>Contacts:</h4>
-        <ul>
-            <li>+380933016798</li>
-            <li>lentorilp@gmail.com</li>
-        </ul>
-        </div>
+            <aside>
+                <div class="soft">
+                    <h4>Soft skills:</h4>
+                    <p>Understanding game theory and graph theory. Great desire to learn and develop in this direction. Perseverance, ability to solve problems step by step</p>
+                </div>
+                <div class="hard">
+                    <h4>Hard skills:</h4>
+                    <ul>
+                        <li>Basic skills in HTML</li>
+                        <li>Basic skills in CSS</li>
+                        <li>Basic skills in JS</li>
+                    </ul>
+                </div>
+            </aside>
+            <article>
+                <div class="aboutme">
+                    <h4>About me:</h4>
+                    <p>I am a first year Cybersecurity student living in Zaporozhye. I want website development to become my favorite business and hobby.</p>
+                </div>
+                <div class="code">
+                    <h4>Сode examlpes:</h4>
+                    <code>
+                        function fizzbuzz(n) {<br>
+                        return Array.apply(null, new Array(n)).map(function(e, i){<br>
+                        return (++i % 3 ? '' : 'Fizz' ) + (i % 5 ? '' : 'Buzz') || i;<br>
+                        });
+                        }
+                    </code>
+                </div>
+                <div class="experience">
+                    <h4>Experience:</h4>
+                </div>
+                <div class="education">
+                    <h4>Education:</h4>
+                    <p>First-year student of NU "Zaporyzka Polytechnika" in the specialty "Cybersecurity"</p>
+                </div>
+                <div class = "languages">
+                    <h4>Knowledge Of Languages:</h4>
+                    <p>English - B2, Russian, Ukrainian</p>
+                </div>
+            </article>
         </section>
-        <img class="photo" src="https://i.imgur.com/5fAPqoK.jpg" alt="My photo">
-    </header>
-
-        <div class="soft"><h4>Soft skills: Understanding game theory and graph theory. Great desire to learn and develop in this direction. Perseverance, ability to solve problems step by step</h4></div>
-        <div class="hard"><h4>Hard skills:</h4>
-        <ul>
-        <li>Basic skills in HTML</li>
-        <li>Basic skills in CSS</li>
-        <li>Basic skills in JS</li>
-        </ul></div>
-        <div class="code"><h4>Сode examlpes:</h4>
-        function fizzbuzz(n) {<br>
-        return Array.apply(null, new Array(n)).map(function(e, i){<br>
-        return (++i % 3 ? '' : 'Fizz' ) + (i % 5 ? '' : 'Buzz') || i;<br>
-        });
-        }</div>
-        <div>
-            <h4>Experience:</h4>
-        </div>
-        <div>
-            <h4>Education:</h4> First-year student of NU "Zaporyzka Polytechnika" in the specialty "Cybersecurity"
-        </div>
-    <div>
-        <h3>Knowledge Of Languages:</h3> English - B2, Russian, Ukrainian
     </div>
-    </div>
-</article>
 </body>
 </html>
